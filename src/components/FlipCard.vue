@@ -56,7 +56,7 @@ export default {
 <style scoped>
 .FlipCard {
   background-color: transparent;
-  width: 220px;
+  width: 230px;
   height: 150px;
   perspective: 1000px;
   font-family: "Lobster", serif;
@@ -85,6 +85,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.56);
 }
 
 .FlipCard-front {

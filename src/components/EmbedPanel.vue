@@ -21,6 +21,8 @@ export default {
       if (!name) {
         this.visible = false;
         this.embed = "";
+
+        return;
       }
 
       const embedData = EMBEDS.find((embed) => embed.name === name);

@@ -40,8 +40,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-color: #13263c;*/
-  min-height: 100vh;
   width: 100vw;
 }
 
