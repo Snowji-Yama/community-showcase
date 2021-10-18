@@ -77,6 +77,8 @@ export default {
 
 .Home {
   background-color: #13263c;
+  display: flex;
+  justify-content: center;
 }
 
 .Intro {
@@ -84,6 +86,7 @@ export default {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  max-width: 1100px;
 }
 .Intro img {
   height: 100%;

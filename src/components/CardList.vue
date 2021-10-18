@@ -40,7 +40,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  max-width: 1100px;
 }
 
 .CardList .title {
@@ -51,7 +51,7 @@ export default {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
   padding-bottom: 200px;
 }
 
